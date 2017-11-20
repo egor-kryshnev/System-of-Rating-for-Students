@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9df41bf18f60411eba3dce3ba9a3b4b1" Name="Diagram1">
+        <EntityTypeShape EntityType="rankingModel.Attendance" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Courses" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Groups" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Marks" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Objects" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Roles" Width="1.5" PointX="5.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Stage" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Student" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Training" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="rankingModel.Users" Width="1.5" PointX="8" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="rankingModel.FK_Attendance_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="rankingModel.FK_Courses_Training" ManuallyRouted="false" />
+        <AssociationConnector Association="rankingModel.FK_Groups_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="rankingModel.FK_Marks_Objects" ManuallyRouted="false" />
+        <AssociationConnector Association="rankingModel.FK_Marks_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="rankingModel.FK_Users_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="rankingModel.FK_Training_Stage" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
